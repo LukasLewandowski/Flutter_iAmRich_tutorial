@@ -12,6 +12,13 @@ void main() {
           title: Text('Lubię Placki :)'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+            // image: NetworkImage(
+            //     'https://images.pexels.com/photos/2387876/pexels-photo-2387876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+          ),
+        ),
       ),
     ),
   );
